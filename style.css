@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    padding: 30px;
+}
+
+.resume {
+    max-width: 750px;
+    background: #ffffff;
+    margin: auto;
+    padding: 30px 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #2c3e50;
+}
+
+.header h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 5px;
+}
+
+.contact {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #444;
+}
+
+.contact span {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    font-size: 20px;
+    color: #2c3e50;
+    border-left: 4px solid #3498db;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.section p,
+.section li {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.skills li,
+.strengths li {
+    margin-bottom: 6px;
+}
+
+.project h4 {
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.declaration {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
