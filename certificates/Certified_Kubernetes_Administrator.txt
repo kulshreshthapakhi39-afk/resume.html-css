@@ -1,0 +1,3 @@
+Certified Kubernetes Administrator (CKA) (2025)
+
+This file is a placeholder for the real CKA certification document. Replace it with your actual certificate PDF or scanned image file.

@@ -1,95 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Resume - Pakhi Kulshreshtha</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Internship Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <header class="header">
-            <div class="name">
-            <h1>Pakhi Kulshreshtha</h1>
-            <p class="role">FULL STACK WEB DEVELOPER</p>
+        <header>
+            <div class="profile">
+                <div class="header-info">
+                    <h1>Pakhi Kulshreshtha</h1>
+                    <p>Computer Science Student</p>
+                    <p>Email: <a href="mailto:kulshreshthpakhi39@gmail.com">kulshreshthpakhi39@gmail.com</a> | Phone:
+                        91+ 6397114351 | LinkedIn:
+                        <a href="https://www.linkedin.com/in/pakhi-kulshrestha-908b322a7?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                            target="_blank">LinkedIn Profile</a>
+                        | GitHub: <a href="https://github.com/kulshreshthapakhi39-afk" target="_blank">GitHub
+                            Profile</a>
+                    </p>
+                </div>
             </div>
-            
-            <div class="contact">
-                <a href="#">Download PDF</a>
-                <p>kulshreshthapakhi39@gmail.com</p>
-                <p> +91-6397114351</p>
-                
+            <button id="print-btn" class="print-btn">Print Resume</button>
         </header>
-        <hr>
-        <section class="row">
-            <div class="left">Profile</div>
-            <div class="right">
-            Motivated and passionate Full Stack Developer seeking an internship opportunity.
-            Skills\ed in building responsive, scalable and using mordern technologies.
+
+        <section id="objective">
+            <h2>Objective</h2>
+            <p>Passionate computer science student specializing in full-stack development and artificial intelligence,
+                seeking an internship to apply expertise in modern web technologies and machine learning frameworks.
+                Eager to contribute to innovative projects that leverage cutting-edge AI solutions and scalable web
+                applications.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                <p>Dr. A.P.J. Abdul Kalam Technical University</p>
+                <p>Aligarh College of Engineering and Technology</p>
+                <p>2022 - 2026</p>
             </div>
         </section>
 
-        <hr>
-        <section class="row">
-            <div class="left">Skills</div>
-            <div class="right grid-3">
-                <div>
-                    <h4>Frontend</h4>
-                    <p>HTML, CSS, JavaScript, React, Bootstrap, Tailwind</p>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Full Stack Development</h3>
+                    <ul>
+                        <li>Frontend: HTML5, CSS3, JavaScript, React, Vue.js</li>
+                        <li>Backend: Node.js, Express.js, Python (Flask/Django)</li>
+                        <li>Databases: MongoDB, PostgreSQL, MySQL</li>
+                        <li>APIs: REST, GraphQL, WebSockets</li>
+                        <li>DevOps: Docker, AWS, Git, CI/CD</li>
+                    </ul>
                 </div>
-                <div>
-                    <h4>Backend</h4>
-                    <p>Node.js, Express.js, REST APIs</p>
+                <div class="skill-category">
+                    <h3>AI & Machine Learning</h3>
+                    <ul>
+                        <li>Languages: Python, R</li>
+                        <li>Frameworks: TensorFlow, PyTorch, Scikit-learn</li>
+                        <li>Data Science: Pandas, NumPy, Jupyter</li>
+                        <li>Deep Learning: CNN, RNN, NLP</li>
+                        <li>Tools: OpenCV, NLTK, Hugging Face</li>
+                    </ul>
                 </div>
-                <div>
-                    <h4>DataBase</h4>
-                    <p>MongoDB, MySQL</p>
-                </div>
             </div>
         </section>
 
-        <hr>
-        <section class="row">
-            <div class="left">Projects</div>
-            <div class="right">
-                <h4>TripVerse-Travel & Tourism Web App</h4>
-                <p>
-                    Designed and developed a travel booking platform with secure login, 
-                    REST APIs and responsive UI.
-                </p>
-                <h4>Food Delivery Web Applications</h4>
-                <p>Built a swiggy/Zomato-like food ordering system with cart, checkout and order management</p>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>E-Commerce Website</h3>
+                <p>Developed a full-stack e-commerce website using React, Node.js, and MongoDB. Implemented user
+                    authentication, product catalog, and shopping cart functionality.</p>
+                <p><strong>Technologies:</strong> React, Node.js, Express, MongoDB, JWT</p>
+                <p><a href="#" target="_blank">GitHub Link</a></p>
             </div>
-        </section>
-        <hr>
-        <section class="row">
-            <div class="left">Education</div>
-            <div class="right">
-                <strong>B.tech- Computer Science Engineering</strong><br>
-                Final Year (pursuing)<br><br>
-                Senior Secondary(12th)-2021
+            <div class="project-item">
+                <h3>AI-Powered Image Recognition App</h3>
+                <p>Built a machine learning application that classifies images using convolutional neural networks.
+                    Implemented a web interface for users to upload images and receive real-time predictions.</p>
+                <p><strong>Technologies:</strong> Python, TensorFlow, Flask, OpenCV, React</p>
+                <p><a href="#" target="_blank">GitHub Link</a></p>
             </div>
         </section>
 
-        <hr>
-        <section class="row">
-            <div class="left">Tools</div>
-            <div class="right tech">
-                <span>
-                    <a href="https://github.com/kulshreshthapakhi39-afk" target="_blank">GitHub</a>
-                </span>
-                <span>
-                    <a href="https://www.linkedin.com/in/pakhi-kulshrestha-908b322a7" target="_blank">LinkdIn</a>
-                </span>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>AWS Certified Developer - Associate (2024)</li>
+                <li>Google Cloud Professional Cloud Developer (2024)</li>
+                <li>TensorFlow Developer Certificate (2025)</li>
+                <li>Microsoft Certified: Azure AI Engineer Associate (2024)</li>
+                <li>Certified Kubernetes Administrator (CKA) (2025)</li>
+            </ul>
+            <div class="certificate-links">
+                <p>Download certificate attachments:</p>
+                <a href="certificates/AWS_Certified_Developer_Associate.txt" download>AWS Developer Certificate</a>
+                <a href="certificates/Google_Cloud_Professional_Cloud_Developer.txt" download>Google Cloud
+                    Certificate</a>
+                <a href="certificates/TensorFlow_Developer_Certificate.txt" download>TensorFlow Certificate</a>
+                <a href="certificates/Azure_AI_Engineer_Associate.txt" download>Azure AI Certificate</a>
+                <a href="certificates/Certified_Kubernetes_Administrator.txt" download>CKA Certificate</a>
             </div>
         </section>
-
-        <hr>
-        <footer class="footer">
-            Pakhi Kulshreshtha- kulshreshthapakhi39@gmail.com- +91-6397114351
-        </footer>
     </div>
-    
+
+    <script src="script.js"></script>
 </body>
 
 </html>
